@@ -3,6 +3,8 @@
 
 **著者:** Fumio Miyata  
 **日付:** 2026年4月8日  
+**DOI:** [10.5281/zenodo.19481201](https://doi.org/10.5281/zenodo.19481201)  
+**Repository:** [github.com/aikenkyu001/PKGF_theory](https://github.com/aikenkyu001/PKGF_theory)  
 
 ---
 

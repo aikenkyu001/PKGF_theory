@@ -2,6 +2,9 @@
 
 **A Geometric Theoretical Framework for the Construction, Deconstruction, and Metabolism of Intelligence**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19481201.svg)](https://doi.org/10.5281/zenodo.19481201)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/aikenkyu001/PKGF_theory)
+
 ---
 
 ## 🚀 Overview
