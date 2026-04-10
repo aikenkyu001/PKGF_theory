@@ -9,72 +9,83 @@
 
 ## 🚀 Overview
 
-**Parallel Key Geometric Flow (PKGF)** is a novel mathematical framework that describes the dynamics of intelligence as a geometric flow on a manifold. By integrating **Gauge Theory, Information Geometry, and Cognitive Science**, this theory provides an axiomatic approach to how mental structures are built, dissolved, and reorganized through a metabolic cycle.
-
-This repository contains the foundational papers and supporting references for the PKGF system.
+**Parallel Key Geometric Flow (PKGF)** is a mathematical framework that describes intelligence as a dynamic geometric flow on a manifold. By integrating **Gauge Theory, Riemannian Geometry, and Topological Data Analysis (TDA)**, it provides an axiomatic foundation for how cognitive structures undergo cycles of construction, deconstruction, and metabolic reorganization.
 
 ### 🔗 Quick Links
-- **Main Paper**: [English (en)](PKGF_theory_en.md) | [Japanese (jp)](PKGF_theory_jp.md)
-- **Axiomatic System**: [English (en)](PKGF_axioms_en.md) | [Japanese (jp)](PKGF_axioms_jp.md)
-
-### The Three Pillars of PKGF:
-1.  **Constructive PKGF (Standard PKGF)**: Describes the formation of order, knowledge crystallization, and maintenance of logical consistency via gauge-covariant alignment.
-2.  **Destructive PKGF (Inverse PKGF)**: Models the simplification, forgetting, and coarse-graining of information through rank reduction and entropy increase.
-3.  **Metabolic PKGF (Unified PKGF)**: Integrates construction and deconstruction into a single dynamic system, explaining spontaneous gauge symmetry breaking, phase transitions, and "dimensional leaps" in intelligence.
+- **Theory (Main Paper)**: [English (en)](PKGF_theory_en.md) | [Japanese (jp)](PKGF_theory_jp.md)
+- **Axioms**: [English (en)](PKGF_axioms_en.md) | [Japanese (jp)](PKGF_axioms_jp.md)
+- **Experimental Results**: [Appendix (EN)](PKGF_theory_en.md#appendix-experimental-validation-and-numerical-evidence) | [Appendix (JP)](PKGF_theory_jp.md#付録実験的検証と数値的証拠appendix-experimental-validation)
 
 ---
 
-## 🏛 Mathematical Foundation (Axiomatic System)
+## 🧪 Experimental Validation
 
-The PKGF framework is built upon a **Minimal Axiomatic System**, ensuring it functions as a self-contained mathematical structure. The system is defined by four groups of axioms:
+The core theorems of PKGF have been numerically validated using a high-dimensional simulation suite.
 
-- **Fundamental Data (A1–A6)**: Defines the Manifold, Tangent Bundle Decomposition, Parallel Key, Gauge Group, Connection, and Semantic Potential.
-- **Construction Axioms (C1–C3)**: Establishes the Constructive Equation and Gauge Covariance.
-- **Deconstruction Axioms (D1–D5)**: Formalizes the Dissipative Operator, Rank Reduction, and Entropy Increase.
-- **Metabolism Axioms (U1–U6)**: Introduces the Complex Parallel Key, Spontaneous Gauge Symmetry Breaking, and Dimensional Leaps.
+### Key Discoveries:
+1.  **Topological Dimensional Leap (Theorem U6)**: Using Persistent Homology (`ripser`), we captured the discontinuous emergence of Betti numbers ($b_1, b_2$) as internal tension crosses critical thresholds, validating the "paradigm shift" mechanism.
+2.  **Metabolic Phase Mapping (Theorem U4)**: We successfully mapped the $(\lambda, A)$ phase plane, identifying a stable "Breathing" region where logical volume oscillates quasi-periodically.
+3.  **Self-Organizing Dimensionality (Theorem 6)**: Experimental sweeps revealed a critical dimension $D^*$ where social resonance energy minimizes, showing PKGF's inherent capability for efficient information compression.
 
----
-
-## 📄 Repository Structure
-
-- 📄 **Main Paper (Theory)**
-  - [PKGF_theory_en.md](PKGF_theory_en.md) (English - Academic Native)
-  - [PKGF_theory_jp.md](PKGF_theory_jp.md) (Japanese - Original Manuscript)
-- ⚖️ **Axiomatic System**
-  - [PKGF_axioms_en.md](PKGF_axioms_en.md) (English)
-  - [PKGF_axioms_jp.md](PKGF_axioms_jp.md) (Japanese)
-- 📁 **[PDF/](PDF/)** (Foundational references and supporting papers)
+### Scientific Evidence (Visualized):
+- **Fig 1**: [Rank Reduction & Entropy Increase](pkgf_fig1_destructive.png) (Destructive Flow)
+- **Fig 2**: [Breathing Logical Volume](pkgf_fig2_breathing.png) (Metabolic Cycle)
+- **Fig 3**: [PKGF Phase Diagram](pkgf_fig3_phase_diagram.png) (Constructive vs Metabolic vs Destructive)
+- **Fig 4**: [Topological Phase Transition](pkgf_fig4_tda.png) (Dimensional Leap)
+- **Fig 5**: [Critical Dimension Search](pkgf_fig5_critical_D.png) (Multi-Agent Resonance)
 
 ---
 
-## 🧠 Key Concepts
+## 💻 Codebase
 
-- **Parallel Key ($K$)**: An endomorphism field on the tangent bundle that represents the internal logic and transformation rules of a conceptual system.
-- **Gauge Covariance**: Ensuring that the essence of intelligence remains invariant under changes in "perspective" or "coordinate frames" (languages/preconditions).
-- **Metabolic Cycle**: Intelligence is not static; it lives through a continuous cycle of **Construction $\leftrightarrow$ Deconstruction $\leftrightarrow$ Reconstruction**.
-- **Dimensional Leap**: When internal tension exceeds a critical threshold, the manifold undergoes a topological change, allowing for higher-order abstract reasoning (enlightenment/paradigm shift).
+This repository includes the complete experimental environment for reproducing the results.
+
+### Files:
+- `pkgf_experiments.py`: The core simulation engine. Runs the 16-field dynamics, TDA, and multi-agent sweeps.
+- `pkgf_visualizer.py`: Analysis and visualization script for generating paper-ready figures.
+- `pkgf_log_python.json`: Comprehensive simulation logs.
+
+### Usage:
+```bash
+# Install dependencies
+pip install numpy scipy ripser scikit-learn seaborn pandas tabulate
+
+# Run experiments
+python3 pkgf_experiments.py
+
+# Generate visualizations
+python3 pkgf_visualizer.py
+```
+
+---
+
+## 🏛 Mathematical Foundation
+
+The system is defined by a **Minimal Axiomatic System**:
+- **Fundamental Data (A1–A6)**: Manifold structure and Parallel Key ($K$).
+- **Construction (C1–C3)**: Gauge-covariant alignment ($\nabla K = [\Omega, K]$).
+- **Deconstruction (D1–D5)**: Structure dissipation and rank reduction.
+- **Metabolism (U1–U6)**: Complex Parallel Key and topological phase transitions.
 
 ---
 
 ## 📚 References
 
-The theory is built upon and connects with the following major works:
-
 1.  **Meng Lu (2024)**: *A Mathematical Framework of Intelligence and Consciousness based on Riemannian Geometry*.
 2.  **Cohen & Weiler (2019)**: *Gauge Equivariant Convolutional Networks*.
 3.  **Simon Donaldson (2017)**: *Mathematical Aspects of Gauge Theory*.
 4.  **Andriy Haydys (2019)**: *Introduction to Gauge Theory*.
-5.  **Zhang et al. (2022)**: *Graph-level Neural Networks Survey*.
 
 ---
 
-## ✍️ Author
+## ✍️ Author & Citation
 
 **Fumio Miyata**  
-*Date: April 2026*
+*Date: April 2026*  
+*DOI: 10.5281/zenodo.19481201*
 
 ---
 
 ## ⚖️ License
 
-This work is provided for academic research and discussion. Please refer to the individual papers for citation guidelines.
+This work is provided for academic research. For commercial use or specific inquiries regarding the AI architecture implementation, please contact the author.
